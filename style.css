@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: orange;
+    width: 100wh;
+    height: 70px;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}
+
+.header-left{
+    font-size: 40px; 
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 20px;
+    margin: 20px ;
+    text-decoration: none;
+}
+p{
+margin: 0 20px;
+}
+.header-right > p >a {
+    text-decoration: none;
+}
+
+
+
+.header-under{
+    margin: 35px 0;
+    text-align: center;
+}
+
+
+
+.main-visual{ 
+    margin: 40px 0;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    } 
+
+.caution{
+    margin: 450px 0;
+    text-align: center;
+}
+
+.profile-warm{
+    text-align: center;
+    padding: 60px 0;
+}
+.profileall{
+    margin: -400px 250px;
+    background-color: orange;
+    width: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.profile-senter{
+    padding-bottom: 40px 0;
+}
+p{
+    font-size: 20px;
+}
+
+.profile-photo{
+  width: 20% 50vw;
+margin-left: 100px;
+}
+
+.campany-warm{
+    display: flex;
+    justify-content: center;
+    margin: 480px ; 
+}
+
+.kaisha {
+    margin: -400px 210px;
+    width: 70%;
+    }
+    
+    .kaisha th,
+    .kaisha td {
+    border: 1px solid #ccc;
+    padding: 20px;
+    }
+    
+    .kaisha th {
+    font-weight: bold;
+    background-color: #dedede; 
+    }
+    
+    @media screen and (max-width: 767px) {
+    .kaisha,
+    .kaisha tr,
+    .kaisha td,
+    .kaisha th {display:block;}
+    .kaisha th {width:auto;}
+    }
+
+    .section{
+      
+    }
+
+    .contact {
+        text-align: center;
+        margin: 350px 0;
+    }
+    .contact h1 {
+        padding: 120px 0 50px;
+    }
+    @media screen and (max-width: 830px) {
+        .contact h1 {
+            padding: 60px 0 50px;
+        }
+    }
+    .contact p {
+        margin-bottom: 30px;
+        padding: 0 5px;
+    }
+    .btn-contact {
+        padding: 21px 63px;
+        margin-bottom: 90px;
+        }
